@@ -1,35 +1,12 @@
-# Moviewebsite_project
+# React + Vite
 
-This is a movie search app I built using React and the TMDB API. You can search for movies, check out their posters, ratings, and descriptions, and even add your favorites. I built this to practice working with APIs, React Router, and localStorage — and had a lot of fun making it!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
--  Search for movies by title
--  View movie details like poster, rating, and year of release
--  Add/remove movies from a favorites list (stored in localStorage)
--  Navigate smoothly using React Router
--  Fully responsive design
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## ⚙️ Tech Stack
+## Expanding the ESLint configuration
 
-- React (with hooks)
-- React Router DOM
-- TMDB API
-- Context API for global state
-- LocalStorage
-- CSS / Tailwind CSS *(if used)*
-
-## 📸 Screenshots
-
-> *(I'll be adding screenshots here soon)*  
-
-
-## 📁 Getting Started
-
-To run this project locally:
-
-```bash
-git clone https://github.com/Pragya-tiwari-14/Moviewebsite_project.git
-cd Moviewebsite_project
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
